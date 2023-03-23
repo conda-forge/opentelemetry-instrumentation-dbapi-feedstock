@@ -1,11 +1,11 @@
-About opentelemetry-instrumentation-dbapi
-=========================================
+About opentelemetry-instrumentation-dbapi-feedstock
+===================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-dbapi-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-dbapi
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-dbapi-feedstock/blob/main/LICENSE.txt)
 
 Summary: OpenTelemetry Database API instrumentation
 
