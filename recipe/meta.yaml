@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-dbapi" %}
-{% set version = "0.42b0" %}
+{% set version = "0.43b0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_dbapi-{{ version }}.tar.gz
-  sha256: ca2cdbfcc3fe8b1489fee8064fd1d9154a4eb2434feacd4a1d7adbbc1d494d4b
+  sha256: 2c02f0b2f2f3bc28c0afdf1eb42af2c015095f482f2bb179bec9d4b66345efa5
 
 build:
   noarch: python
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >=3.7
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation ==0.42b0
-    - opentelemetry-semantic-conventions ==0.42b0
+    - opentelemetry-instrumentation ==0.43b0
+    - opentelemetry-semantic-conventions ==0.43b0
     - wrapt <2.0.0,>=1.0.0
     # - opentelemetry-test-utils ==0.37b0
     # - opentelemetry-test-utils ==0.38b0
@@ -31,6 +31,7 @@ requirements:
     # - opentelemetry-test-utils ==0.40b0
     # - opentelemetry-test-utils ==0.41b0
     # - opentelemetry-test-utils ==0.42b0
+    # - opentelemetry-test-utils ==0.43b0
 
 test:
   imports:
